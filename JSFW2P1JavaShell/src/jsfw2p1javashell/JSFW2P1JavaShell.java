@@ -16,6 +16,9 @@ public class JSFW2P1JavaShell {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("Test");
+        String testEnv = System.getenv("TestEnviron");
+        System.out.print(testEnv);
     }
     
 }
